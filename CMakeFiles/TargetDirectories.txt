@@ -1,0 +1,3 @@
+/home/kairat/workspace/hellocpp/CMakeFiles/main.dir
+/home/kairat/workspace/hellocpp/CMakeFiles/edit_cache.dir
+/home/kairat/workspace/hellocpp/CMakeFiles/rebuild_cache.dir

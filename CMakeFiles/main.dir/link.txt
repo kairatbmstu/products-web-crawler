@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -rdynamic CMakeFiles/main.dir/src/main.cpp.o -o main  -Wl,-rpath,/usr/local/lib /usr/local/lib/libPocoNet.so.82 /usr/local/lib/libPocoUtil.so.82 /usr/local/lib/libPocoXML.so.82 /usr/local/lib/libPocoJSON.so.82 /usr/local/lib/libPocoFoundation.so.82 -lpthread -ldl -lrt 
