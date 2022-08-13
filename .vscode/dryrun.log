@@ -5,6 +5,7 @@ make: Entering directory '/home/kairat/workspace/products-web-crawler'
 make -s -f CMakeFiles/Makefile2 all
 make[1]: Entering directory '/home/kairat/workspace/products-web-crawler'
 make -s -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+ 
 make[2]: Entering directory '/home/kairat/workspace/products-web-crawler'
 cd /home/kairat/workspace/hellocpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp/CMakeFiles/main.dir/DependInfo.cmake --color=
 make[2]: Leaving directory '/home/kairat/workspace/products-web-crawler'
