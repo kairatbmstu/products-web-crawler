@@ -6,23 +6,23 @@ namespace WebCrawler
 {
     namespace Model
     {
-        class Link
+
+        class AppUser
         {
         private:
             /* data */
         public:
-            Link(/* args */);
-            ~Link();
+            AppUser(/* args */);
+            ~AppUser();
         };
 
-        Link::Link(/* args */)
+        AppUser::AppUser(/* args */)
         {
         }
 
-        Link::~Link()
+        AppUser::~AppUser()
         {
         }
 
     }
-
 }

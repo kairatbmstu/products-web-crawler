@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string> // for string class
 using namespace std;
+using WebCrawler::Model::Link;
 
 namespace WebCrawler
 {
@@ -9,7 +10,14 @@ namespace WebCrawler
         class Image
         {
         private:
-            /* data */
+            int id;
+            string url;
+            string html;
+            string textBody;
+            string createdTime;
+            string lastUpdateTime;
+            Link link;
+
         public:
             Image(/* args */);
             ~Image();
