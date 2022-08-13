@@ -34,6 +34,7 @@ using Poco::Util::Option;
 using Poco::Util::OptionSet;
 using Poco::Util::OptionCallback;
 using Poco::Util::HelpFormatter;
+using WebCrawler::Model::WebPage;
 
 class MainHandler: public HTTPRequestHandler
 {
@@ -50,6 +51,7 @@ public:
 
         response.setChunkedTransferEncoding(true);
         response.setContentType("text/html");
+        WebCrawler::Model::WebPage page;
 
         std::ostream& ostr = response.send();
         ostr << "<html><head><title>MainServer powered by "
@@ -57,6 +59,8 @@ public:
         ostr << "</head>";
         ostr << "<body><p style=\"text-align: center; "
                 "font-size: 48px;\">";
+
+        ostr << page.id;
         ostr << "Hello World!";
         ostr << "</p></body></html>";
     }
