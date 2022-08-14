@@ -1,5 +1,7 @@
 #include <iostream>
-#include <string> // for string class
+#include <string> 
+#include "link.h"
+
 using namespace std;
 
 namespace WebCrawler
