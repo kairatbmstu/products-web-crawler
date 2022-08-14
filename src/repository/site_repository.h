@@ -9,6 +9,9 @@ namespace WebCrawler
 {
     namespace Repository
     {
+
+        SiteRepository siteRepository;
+
         class SiteRepository
         {
         private:

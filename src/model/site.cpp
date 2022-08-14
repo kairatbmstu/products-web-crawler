@@ -24,5 +24,15 @@ namespace WebCrawler
         {
             return this->id;
         }
+
+        void Site::setName(string name)
+        {
+            this->name = name;
+        }
+
+        string Site::getName()
+        {
+            return this->name;
+        }
     }
 }

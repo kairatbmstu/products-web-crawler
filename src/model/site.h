@@ -11,13 +11,15 @@ namespace WebCrawler
         {
         private:
             int id;
-            int name;
-            int url;
+            string name;
+            string url;
         public:
             Site();
             ~Site();
             void setId(int id);
             int getId();
+            void setName(string id);
+            string getName();
         };
 
        
