@@ -16,6 +16,7 @@
 #include "Poco/Util/OptionSet.h"
 #include "Poco/Util/HelpFormatter.h"
 #include <iostream>
+#include "webpage.h"
 
 using Poco::Net::ServerSocket;
 using Poco::Net::HTTPRequestHandler;
@@ -60,7 +61,7 @@ public:
         ostr << "<body><p style=\"text-align: center; "
                 "font-size: 48px;\">";
 
-        ostr << page.id;
+        ostr << page.getId();
         ostr << "Hello World!";
         ostr << "</p></body></html>";
     }

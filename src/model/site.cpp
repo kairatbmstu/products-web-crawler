@@ -1,21 +1,13 @@
 #include <iostream>
 #include <string> // for string class
+#include "site.h"
 using namespace std;
 
 namespace WebCrawler
 {
     namespace Model
     {
-        class Site
-        {
-        private:
-            /* data */
-        public:
-            Site(/* args */);
-            ~Site();
-        };
-
-        Site::Site(/* args */)
+        Site::Site()
         {
         }
 
@@ -23,5 +15,12 @@ namespace WebCrawler
         {
         }
 
+        void setId(int id)
+        {
+        }
+
+        int getId()
+        {
+        }
     }
 }

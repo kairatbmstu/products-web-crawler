@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string> 
+#include "site.h"
+#include <vector>
+
+using namespace std;
+
+namespace WebCrawler
+{
+    namespace Repository
+    {
+        class SiteRepository
+        {
+        private:
+            vector<WebCrawler::Model::Site> sites;
+
+        public:
+            SiteRepository();
+            ~SiteRepository();
+
+            void addSite(WebCrawler::Model::Site site);
+            vector<WebCrawler::Model::Site> getSites(WebCrawler::Model::Site site);
+        };
+    }
+}

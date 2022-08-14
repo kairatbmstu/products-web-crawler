@@ -1,25 +1,13 @@
 #include <iostream>
 #include <string> // for string class
 using namespace std;
+#include "webpage.h"
+
 
 namespace WebCrawler
 {
     namespace Model
     {
-
-        class WebPage
-        {
-        private:
-            /* data */
-            int id;
-            string name;
-            string url;
-
-        public:
-            WebPage(/* args */);
-            ~WebPage();
-        };
-
         WebPage::WebPage(/* args */)
         {
         }
@@ -28,6 +16,9 @@ namespace WebCrawler
         {
         }
 
+        int WebPage::getId(){
+            return id;
+        }
     }
 
 }

@@ -7,17 +7,20 @@ namespace WebCrawler
     namespace Model
     {
 
-        class Site
+        class WebPage
         {
         private:
+            /* data */
             int id;
-            int name;
-            int url;
+            string name;
+            string url;
+
         public:
-            Site();
-            ~Site();
+            WebPage(/* args */);
+            ~WebPage();
+            int getId();
         };
 
-       
     }
+
 }
