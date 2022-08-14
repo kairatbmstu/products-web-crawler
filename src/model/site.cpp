@@ -15,12 +15,14 @@ namespace WebCrawler
         {
         }
 
-        void setId(int id)
+        void Site::setId(int id)
         {
+            this->id = id;
         }
 
-        int getId()
+        int Site::getId()
         {
+            return this->id;
         }
     }
 }

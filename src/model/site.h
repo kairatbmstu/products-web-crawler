@@ -16,6 +16,8 @@ namespace WebCrawler
         public:
             Site();
             ~Site();
+            void setId(int id);
+            int getId();
         };
 
        
