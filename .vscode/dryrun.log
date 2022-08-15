@@ -5,10 +5,12 @@ make: Entering directory '/home/kairat/workspace/products-web-crawler'
 make -s -f CMakeFiles/Makefile2 all
 make[1]: Entering directory '/home/kairat/workspace/products-web-crawler'
 make -s -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+ 
 make[2]: Entering directory '/home/kairat/workspace/products-web-crawler'
 cd /home/kairat/workspace/hellocpp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp /home/kairat/workspace/hellocpp/CMakeFiles/main.dir/DependInfo.cmake --color=
 make[2]: Leaving directory '/home/kairat/workspace/products-web-crawler'
 make -s -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+ 
 make[2]: Entering directory '/home/kairat/workspace/products-web-crawler'
 /usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/kairat/workspace/hellocpp/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
 /usr/bin/c++ -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_FD_EPOLL -DPOCO_OS_FAMILY_UNIX -DXML_DTD -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_REENTRANT -D_THREAD_SAFE -D_XOPEN_SOURCE=500 -I/usr/locale/include/Poco -std=c++11 -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/kairat/workspace/hellocpp/src/main.cpp

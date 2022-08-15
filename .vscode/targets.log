@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 14 14:29:43 2022
+# Make data base, printed on Mon Aug 15 21:15:09 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ VSCODE_CODE_CACHE_PATH = /home/kairat/.config/Code/CachedData/b06ae3b2d2dbfe28bc
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.M7KQQ1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.LEMRQ1
 # default
 .LOADED := 
 # default
@@ -95,7 +95,7 @@ CMAKE_BINARY_DIR = /home/kairat/workspace/hellocpp
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 25707
+VSCODE_PID = 37273
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -103,7 +103,7 @@ XDG_SESSION_TYPE = wayland
 # makefile (from 'Makefile', line 60)
 CMAKE_SOURCE_DIR = /home/kairat/workspace/hellocpp
 # environment
-SESSION_MANAGER = local/kairat-VivoBook-ASUSLaptop-X512UA:@/tmp/.ICE-unix/7046,unix/kairat-VivoBook-ASUSLaptop-X512UA:/tmp/.ICE-unix/7046
+SESSION_MANAGER = local/kairat-VivoBook-ASUSLaptop-X512UA:@/tmp/.ICE-unix/2469,unix/kairat-VivoBook-ASUSLaptop-X512UA:/tmp/.ICE-unix/2469
 # automatic
 *F = $(notdir $*)
 # environment
@@ -145,7 +145,7 @@ LC_MONETARY = kk_KZ.UTF-8
 # environment
 LC_TIME = kk_KZ.UTF-8
 # environment
-INVOCATION_ID = 54fae64350f14ca6a45cb4cfa9daaf3b
+INVOCATION_ID = 7e32d5d2eb8a418488ee52db312ef9af
 # environment
 USERNAME = kairat
 # environment
@@ -177,7 +177,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := default_target
 # environment
-SYSTEMD_EXEC_PID = 7064
+SYSTEMD_EXEC_PID = 2487
 # makefile (from 'Makefile', line 54)
 RM = /usr/bin/cmake -E rm -f
 # environment
@@ -189,11 +189,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 6910
+MANAGERPID = 2337
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 25707
+GIO_LAUNCHED_DESKTOP_FILE_PID = 37273
 # makefile (from 'Makefile', line 35)
 MAKESILENT = -s
 # environment
@@ -203,7 +203,7 @@ LC_PAPER = kk_KZ.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:49881
+JOURNAL_STREAM = 8:38120
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -292,8 +292,8 @@ src/main.s: src/main.cpp.s
 #  File does not exist.
 #  File has not been updated.
 
- 
 default_target: all
+ 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -515,6 +515,6 @@ src/main.cpp.s:
 # strcache performance: lookups = 167 / hit rate = 68%
 # hash-table stats:
 # Load=53/8192=1%, Rehash=0, Collisions=0/167=0%
-# Finished Make data base on Sun Aug 14 14:29:43 2022
+# Finished Make data base on Mon Aug 15 21:15:09 2022
 
  
