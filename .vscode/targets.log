@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 20:01:08 2022
+# Make data base, printed on Mon Aug 15 21:08:24 2022
 
 # Variables
 
@@ -95,7 +95,7 @@ CMAKE_BINARY_DIR = /home/kairat/workspace/hellocpp
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 24171
+VSCODE_PID = 34862
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -193,7 +193,7 @@ MANAGERPID = 2337
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 24171
+GIO_LAUNCHED_DESKTOP_FILE_PID = 34862
 # makefile (from 'Makefile', line 35)
 MAKESILENT = -s
 # environment
@@ -279,7 +279,6 @@ src/main.i: src/main.cpp.i
 #  File has not been updated.
 
 depend:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -303,6 +302,7 @@ edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
+ 
 #  File has not been updated.
 
 # Not a target:
@@ -515,6 +515,6 @@ src/main.cpp.s:
 # strcache performance: lookups = 167 / hit rate = 68%
 # hash-table stats:
 # Load=53/8192=1%, Rehash=0, Collisions=0/167=0%
-# Finished Make data base on Mon Aug 15 20:01:08 2022
+# Finished Make data base on Mon Aug 15 21:08:24 2022
 
  
