@@ -22,7 +22,7 @@ namespace WebCrawler
             ~SiteRepository();
 
             void addSite(WebCrawler::Model::Site site);
-            vector<WebCrawler::Model::Site> getSites(WebCrawler::Model::Site site);
+            vector<WebCrawler::Model::Site> getSites();
         };
     }
 }
