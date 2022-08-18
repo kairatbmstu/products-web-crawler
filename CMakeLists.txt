@@ -20,5 +20,5 @@ endif()
 
 include_directories( ${Poco_INCLUDE_DIRS}) 
 
-add_executable(main src/*)
+add_executable(main src/main.cpp)
 target_link_libraries(main ${Poco_LIBRARIES}) 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kairat/workspace/hellocpp
+# Install script for directory: /home/kairat/workspace/products-web-crawler
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kairat/workspace/hellocpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kairat/workspace/products-web-crawler/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

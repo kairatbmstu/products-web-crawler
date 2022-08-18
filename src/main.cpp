@@ -16,7 +16,6 @@
 #include "Poco/Util/OptionSet.h"
 #include "Poco/Util/HelpFormatter.h"
 #include <iostream>
-#include "webpage.h"
 
 using Poco::Net::ServerSocket;
 using Poco::Net::HTTPRequestHandler;
@@ -35,7 +34,6 @@ using Poco::Util::Option;
 using Poco::Util::OptionSet;
 using Poco::Util::OptionCallback;
 using Poco::Util::HelpFormatter;
-using WebCrawler::Model::WebPage;
 
 class MainHandler: public HTTPRequestHandler
 {
@@ -52,7 +50,6 @@ public:
 
         response.setChunkedTransferEncoding(true);
         response.setContentType("text/html");
-        WebCrawler::Model::WebPage page;
 
         std::ostream& ostr = response.send();
         ostr << "<html><head><title>MainServer powered by "
@@ -61,7 +58,6 @@ public:
         ostr << "<body><p style=\"text-align: center; "
                 "font-size: 48px;\">";
 
-        ostr << page.getId();
         ostr << "Hello World!";
         ostr << "</p></body></html>";
     }
@@ -142,7 +138,6 @@ private:
 
 int main(int argc, char** argv)
 {
-    
     MainServer app;
     return app.run(argc, argv);
 }

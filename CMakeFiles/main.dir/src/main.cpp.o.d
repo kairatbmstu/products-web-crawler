@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
- /home/kairat/workspace/hellocpp/src/main.cpp /usr/include/stdc-predef.h \
- /usr/local/include/Poco/Net/HTTPServer.h \
+ /home/kairat/workspace/products-web-crawler/src/main.cpp \
+ /usr/include/stdc-predef.h /usr/local/include/Poco/Net/HTTPServer.h \
  /usr/local/include/Poco/Net/Net.h /usr/local/include/Poco/Foundation.h \
  /usr/local/include/Poco/Config.h /usr/local/include/Poco/Platform.h \
  /usr/local/include/Poco/Platform_POSIX.h \
