@@ -10,8 +10,7 @@ namespace WebCrawler
     namespace Repository
     {
 
-        SiteRepository siteRepository;
-
+      
         class SiteRepository
         {
         private:
@@ -24,5 +23,6 @@ namespace WebCrawler
             void addSite(WebCrawler::Model::Site site);
             vector<WebCrawler::Model::Site> getSites();
         };
+
     }
 }
