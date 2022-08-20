@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 20 11:55:47 2022
+# Make data base, printed on Sat Aug 20 12:54:10 2022
 
 # Variables
 
@@ -95,7 +95,7 @@ CMAKE_BINARY_DIR = /home/kairat/workspace/products-web-crawler
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 5549
+VSCODE_PID = 20982
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -193,7 +193,7 @@ MANAGERPID = 2667
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5549
+GIO_LAUNCHED_DESKTOP_FILE_PID = 20982
 # makefile (from 'Makefile', line 35)
 MAKESILENT = -s
 # environment
@@ -243,9 +243,9 @@ LC_IDENTIFICATION = kk_KZ.UTF-8
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (device 2050, inode 5904684): 15 files, no impossibilities.
+# . (device 2050, inode 5904684): 14 files, no impossibilities.
 
-# 15 files, no impossibilities in 3 directories.
+# 14 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -294,7 +294,6 @@ src/main.s: src/main.cpp.s
 
 default_target: all
 #  Phony target (prerequisite of .PHONY).
- 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -303,12 +302,13 @@ edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
+ 
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-18 22:43:31.940086029
+#  Last modified 2022-08-20 12:20:16.35007982
 #  File has been updated.
 #  Successfully updated.
 
@@ -512,9 +512,9 @@ src/main.cpp.s:
 # strcache buffers: 1 (0) / strings = 53 / storage = 563 B / avg = 10 B
 # current buf: size = 8162 B / used = 563 B / count = 53 / avg = 10 B
 
-# strcache performance: lookups = 167 / hit rate = 68%
+# strcache performance: lookups = 166 / hit rate = 68%
 # hash-table stats:
-# Load=53/8192=1%, Rehash=0, Collisions=0/167=0%
-# Finished Make data base on Sat Aug 20 11:55:47 2022
+# Load=53/8192=1%, Rehash=0, Collisions=0/166=0%
+# Finished Make data base on Sat Aug 20 12:54:10 2022
 
  
