@@ -227,6 +227,9 @@ PocoUtil_DIR:PATH=/usr/local/lib/cmake/Poco
 //The directory containing a CMake configuration file for PocoXML.
 PocoXML_DIR:PATH=/usr/local/lib/cmake/Poco
 
+//The directory containing a CMake configuration file for Poco.
+Poco_DIR:PATH=/usr/local/lib/cmake/Poco
+
 //Value Computed by CMake
 tutocpp14_BINARY_DIR:STATIC=/home/kairat/workspace/products-web-crawler
 
