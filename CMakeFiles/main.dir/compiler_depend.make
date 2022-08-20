@@ -386,8 +386,15 @@ CMakeFiles/main.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  src/service/service.h \
+  src/repository/site_repository.h \
+  src/model/site.h
 
+
+src/repository/site_repository.h:
+
+src/service/service.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
@@ -442,6 +449,8 @@ CMakeFiles/main.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/c++/11/bits/random.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+src/model/site.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
