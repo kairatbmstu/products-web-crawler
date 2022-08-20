@@ -3,22 +3,15 @@
 using namespace std;
 #include "webpage.h"
 
-
-namespace WebCrawler
+WebPage::WebPage(/* args */)
 {
-    namespace Model
-    {
-        WebPage::WebPage(/* args */)
-        {
-        }
+}
 
-        WebPage::~WebPage()
-        {
-        }
+WebPage::~WebPage()
+{
+}
 
-        int WebPage::getId(){
-            return id;
-        }
-    }
-
+int WebPage::getId()
+{
+    return id;
 }

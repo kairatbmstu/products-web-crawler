@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'src/repository/site_repository.o', needed by 'main'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 20 12:54:10 2022
+# Make data base, printed on Sat Aug 20 15:27:57 2022
 
 # Variables
 
@@ -14,20 +16,28 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 JAVA_HOME = /usr/lib/jvm/java-11-openjdk-amd64
 # environment
 GDK_BACKEND = x11
+# makefile (from 'Makefile', line 18)
+OUTPUT := output
 # environment
 LC_ALL = C
+# makefile (from 'Makefile', line 21)
+SRC := src
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
+# makefile (from 'Makefile', line 44)
+MD := mkdir -p
 # environment
 LC_NAME = kk_KZ.UTF-8
 # environment
 LC_NUMERIC = kk_KZ.UTF-8
 # environment
 VSCODE_CWD = /home/kairat
+# makefile (from 'Makefile', line 51)
+LIBS := -Llib
 # environment
 LC_ADDRESS = kk_KZ.UTF-8
 # default
@@ -62,8 +72,6 @@ XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.VZ6OR1
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# makefile (from 'Makefile', line 51)
-CMAKE_COMMAND = /usr/bin/cmake
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -80,6 +88,8 @@ MFLAGS = -pqrR
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
+# makefile (from 'Makefile', line 65)
+OUTPUTMAIN := output/main
 # environment
 WAYLAND_DISPLAY = wayland-0
 # environment
@@ -90,18 +100,16 @@ XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 XDG_SESSION_DESKTOP = ubuntu
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
-# makefile (from 'Makefile', line 63)
-CMAKE_BINARY_DIR = /home/kairat/workspace/products-web-crawler
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 20982
+VSCODE_PID = 34342
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# makefile (from 'Makefile', line 60)
-CMAKE_SOURCE_DIR = /home/kairat/workspace/products-web-crawler
+# makefile (from 'Makefile', line 48)
+INCLUDES := -Iinclude
 # environment
 SESSION_MANAGER = local/kairat-VivoBook-ASUSLaptop-X512UA:@/tmp/.ICE-unix/2799,unix/kairat-VivoBook-ASUSLaptop-X512UA:/tmp/.ICE-unix/2799
 # automatic
@@ -110,15 +118,19 @@ SESSION_MANAGER = local/kairat-VivoBook-ASUSLaptop-X512UA:@/tmp/.ICE-unix/2799,u
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 27)
+LIB := lib
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 24)
+INCLUDE := include
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# makefile (from 'Makefile', line 48)
+# makefile
 SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
@@ -144,8 +156,12 @@ LC_MONETARY = kk_KZ.UTF-8
 ^F = $(notdir $^)
 # environment
 LC_TIME = kk_KZ.UTF-8
+# makefile (from 'Makefile', line 38)
+MAIN := main
 # environment
 INVOCATION_ID = 75fe4a2cfbd0412e9b5303508af71334
+# makefile (from 'Makefile', line 41)
+LIBDIRS := lib
 # environment
 USERNAME = kairat
 # environment
@@ -156,6 +172,8 @@ LC_TELEPHONE = kk_KZ.UTF-8
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
+# makefile (from 'Makefile', line 40)
+INCLUDEDIRS := include
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
@@ -166,20 +184,20 @@ LS_COLORS =
 DESKTOP_SESSION = ubuntu
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 57)
+OBJECTS := src/main.o src/repository/repository_image.o src/repository/repository_link.o src/repository/repository_webpage.o src/repository/site_repository.o src/config/rabbitmq_config.o src/service/link_filter_service.o src/service/link_service.o src/service/page_download_service.o src/service/page_service.o src/service/product_fetch_service.o src/service/product_service.o src/service/seeder_service.o src/model/app_user.o src/model/image.o src/model/link.o src/model/product.o src/model/site.o src/model/webpage.o src/database/database.o
 # 'override' directive
 GNUMAKEFLAGS := 
-# makefile (from 'Makefile', line 57)
-EQUALS = =
 # environment
 LOGNAME = kairat
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
-.DEFAULT_GOAL := default_target
+.DEFAULT_GOAL := all
 # environment
 SYSTEMD_EXEC_PID = 2817
-# makefile (from 'Makefile', line 54)
-RM = /usr/bin/cmake -E rm -f
+# makefile (from 'Makefile', line 43)
+RM = rm -f
 # environment
 DISPLAY = :0
 # environment
@@ -188,14 +206,18 @@ USER = kairat
 GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'Makefile', line 42)
+FIXPATH = $1
 # environment
 MANAGERPID = 2667
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 20982
-# makefile (from 'Makefile', line 35)
-MAKESILENT = -s
+GIO_LAUNCHED_DESKTOP_FILE_PID = 34342
+# makefile (from 'Makefile', line 39)
+SOURCEDIRS := src src/repository src/config src/service src/model src/database
 # environment
 _ = /usr/share/code/code
 # environment
@@ -224,8 +246,16 @@ IM_CONFIG_PHASE = 1
 <F = $(notdir $<)
 # default
 SUFFIXES := 
+# makefile (from 'Makefile', line 10)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 7)
+CXX = g++
+# makefile (from 'Makefile', line 15)
+LFLAGS = 
+# makefile (from 'Makefile', line 54)
+SOURCES := src/main.cpp src/repository/repository_image.cpp src/repository/repository_link.cpp src/repository/repository_webpage.cpp src/repository/site_repository.cpp src/config/rabbitmq_config.cpp src/service/link_filter_service.cpp src/service/link_service.cpp src/service/page_download_service.cpp src/service/page_service.cpp src/service/product_fetch_service.cpp src/service/product_service.cpp src/service/seeder_service.cpp src/model/app_user.cpp src/model/image.cpp src/model/link.cpp src/model/product.cpp src/model/site.cpp src/model/webpage.cpp src/database/database.cpp
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -233,7 +263,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = kk_KZ.UTF-8
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=4/150=3%
+# Load=125/1024=12%, Rehash=0, Collisions=9/183=5%
 
 # Pattern-specific Variable Values
 
@@ -241,87 +271,104 @@ LC_IDENTIFICATION = kk_KZ.UTF-8
 
 # Directories
 
-# RCS: could not be stat'd.
-# SCCS: could not be stat'd.
-# . (device 2050, inode 5904684): 14 files, no impossibilities.
+# src/config (device 2050, inode 8134155): 3 files, no impossibilities.
+# src (device 2050, inode 8003451): 10 files, no impossibilities.
+# src/service (device 2050, inode 8134157): 10 files, no impossibilities.
+# src/model (device 2050, inode 8266834): 14 files, no impossibilities.
+# src/database (device 2050, inode 9186669): 4 files, no impossibilities.
+# . (device 2050, inode 5904684): 15 files, no impossibilities.
+# src/repository (device 2050, inode 8134150): 11 files, no impossibilities.
 
-# 14 files, no impossibilities in 3 directories.
+# 67 files, no impossibilities in 7 directories.
 
 # Implicit Rules
 
-%: %,v
+# No implicit rules.
 
-%: RCS/%
-
-%: RCS/%,v
-
-%: SCCS/s.%
-
-%: s.%
-
-%.hpux_make_needs_suffix_list:
-
-# 6 implicit rules, 0 (0.0%) terminal.
 # Files
 
-src/main.cpp.i:
-#  Phony target (prerequisite of .PHONY).
+# Not a target:
+src/service/product_fetch_service.o:
 #  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 145):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
-
-src/main.i: src/main.cpp.i
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
+#  Modification time never checked.
 #  File has not been updated.
 
-depend:
-#  Phony target (prerequisite of .PHONY).
+# Not a target:
+src/service/page_download_service.o:
 #  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 116):
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-
-src/main.s: src/main.cpp.s
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
+#  Modification time never checked.
 #  File has not been updated.
 
-default_target: all
-#  Phony target (prerequisite of .PHONY).
+# Not a target:
+src/service/seeder_service.o:
 #  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-edit_cache/fast: edit_cache
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
+#  Modification time never checked.
  
+#  File has not been updated.
+
+# Not a target:
+src/service/product_service.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/model/webpage.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-20 12:20:16.35007982
+#  Last modified 2022-08-20 15:27:51.383341144
 #  File has been updated.
 #  Successfully updated.
 
-rebuild_cache:
-#  Phony target (prerequisite of .PHONY).
+# Not a target:
+src/service/page_service.o:
 #  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/model/product.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/model/site.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/model/app_user.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/repository/site_repository.o:
+#  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 80):
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 
-.SILENT:
+# Not a target:
+src/config/rabbitmq_config.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/service/link_service.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/model/link.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -331,57 +378,37 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 97):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+#  recipe to execute (from 'Makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
 
-cmake_force:
-#  Phony target (prerequisite of .PHONY).
+.cpp.o:
 #  Implicit rule search has not been done.
-#  File does not exist.
+#  Modification time never checked.
 #  File has not been updated.
-
-preinstall/fast:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 111):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
-
-edit_cache:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 70):
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-
-rebuild_cache/fast: rebuild_cache
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
 
 # Not a target:
-.hpux_make_needs_suffix_list:
+src/model/image.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-preinstall: all
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 106):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+# Not a target:
+src/repository/repository_webpage.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-20 15:27:38.231258947
+#  File has been updated.
+#  Successfully updated.
 
-src/main.o: src/main.cpp.o
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+# Not a target:
+src/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-20 15:27:37.439253996
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
@@ -389,132 +416,82 @@ src/main.o: src/main.cpp.o
 #  Modification time never checked.
 #  File has not been updated.
 
-all: cmake_check_build_system
-#  Phony target (prerequisite of .PHONY).
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-10 22:00:19.87969386
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 71):
+	$(MD) $(OUTPUT)
+
+all: output main
 #  Command line target.
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 68):
+	@echo Executing 'all' complete!
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 90):
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kairat/workspace/products-web-crawler/CMakeFiles /home/kairat/workspace/products-web-crawler//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kairat/workspace/products-web-crawler/CMakeFiles 0
+	./$(OUTPUTMAIN)
+	# @echo Executing 'run: all' complete!
 
-help:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 158):
-	@echo "The following are some of the valid targets for this Makefile:"
-	@echo "... all (the default if no target is provided)"
-	@echo "... clean"
-	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... main"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-
-clean/fast: clean
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-main/fast:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 129):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-
-main: cmake_check_build_system
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 124):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-
-.NOTPARALLEL:
+# Not a target:
+src/service/link_filter_service.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-cmake_check_build_system:
-#  Phony target (prerequisite of .PHONY).
+main: src/main.o src/repository/repository_image.o src/repository/repository_link.o src/repository/repository_webpage.o src/repository/site_repository.o src/config/rabbitmq_config.o src/service/link_filter_service.o src/service/link_service.o src/service/page_download_service.o src/service/page_service.o src/service/product_fetch_service.o src/service/product_service.o src/service/seeder_service.o src/model/app_user.o src/model/image.o src/model/link.o src/model/product.o src/model/site.o src/model/webpage.o src/database/database.o
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
+#  Last modified 2022-08-20 12:54:37.48417173
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 74):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+
+# Not a target:
+src/repository/repository_link.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-20 15:27:37.983257397
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := cmake_check_build_system
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
-#  recipe to execute (from 'Makefile', line 179):
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+#  Successfully updated.
 
-src/main.cpp.o:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 137):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
-
-.SUFFIXES: .hpux_make_needs_suffix_list
+.PHONY: clean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend main main/fast src/main.o src/main.cpp.o src/main.i src/main.cpp.i src/main.s src/main.cpp.s help cmake_check_build_system
+# Not a target:
+src/repository/repository_image.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-20 15:27:37.735255846
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/database/database.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-src/main.cpp.s:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 153):
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 
 # files hash-table stats:
-# Load=29/1024=3%, Rehash=0, Collisions=2/101=2%
+# Load=30/1024=3%, Rehash=0, Collisions=2/68=3%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 53 / storage = 563 B / avg = 10 B
-# current buf: size = 8162 B / used = 563 B / count = 53 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 89 / storage = 1356 B / avg = 15 B
+# current buf: size = 8162 B / used = 1356 B / count = 89 / avg = 15 B
 
-# strcache performance: lookups = 166 / hit rate = 68%
+# strcache performance: lookups = 120 / hit rate = 25%
 # hash-table stats:
-# Load=53/8192=1%, Rehash=0, Collisions=0/166=0%
-# Finished Make data base on Sat Aug 20 12:54:10 2022
+# Load=89/8192=1%, Rehash=0, Collisions=0/120=0%
+# Finished Make data base on Sat Aug 20 15:27:57 2022
 
  

@@ -1,35 +1,29 @@
 #include <iostream>
-#include <string> 
+#include <string>
 #include "link.h"
 
 using namespace std;
 
-namespace WebCrawler
+class Image
 {
-    namespace Model
-    {
-        class Image
-        {
-        private:
-            int id;
-            string url;
-            string html;
-            string textBody;
-            string createdTime;
-            string lastUpdateTime;
-            WebCrawler::Model::Link link;
+private:
+    int id;
+    string url;
+    string html;
+    string textBody;
+    string createdTime;
+    string lastUpdateTime;
+    Link link;
 
-        public:
-            Image(/* args */);
-            ~Image();
-        };
+public:
+    Image(/* args */);
+    ~Image();
+};
 
-        Image::Image(/* args */)
-        {
-        }
+Image::Image(/* args */)
+{
+}
 
-        Image::~Image()
-        {
-        }
-    }
+Image::~Image()
+{
 }

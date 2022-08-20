@@ -3,10 +3,7 @@
 #include "../repository/site_repository.h"
 
 using namespace std;
-namespace WebCrawler
-{
-    namespace Service {
-        
+
         class SeederService 
         {
         private:
@@ -17,5 +14,3 @@ namespace WebCrawler
         };
         
         void RunSeeder();
-    }
-}

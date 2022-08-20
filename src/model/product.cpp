@@ -2,28 +2,19 @@
 #include <string> // for string class
 using namespace std;
 
-namespace WebCrawler
+class Product
 {
-    namespace Model
-    {
-        
-        class Product
-        {
-        private:
-            /* data */
-        public:
-            Product(/* args */);
-            ~Product();
-        };
-        
-        Product::Product(/* args */)
-        {
-        }
-        
-        Product::~Product()
-        {
-        }
-        
+private:
+    /* data */
+public:
+    Product(/* args */);
+    ~Product();
+};
 
-    }
+Product::Product(/* args */)
+{
+}
+
+Product::~Product()
+{
 }

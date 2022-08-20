@@ -5,28 +5,24 @@
 
 using namespace std;
 
-namespace WebCrawler
+SeederService::SeederService()
 {
-    namespace Service {
-        SeederService::SeederService()
-        {
-        }
-        
-        SeederService::~SeederService()
-        {
-        }
+}
 
-        void SeederService::seed(){
-               
-        }
+SeederService::~SeederService()
+{
+}
 
-        void RunSeeder() {
-            WebCrawler::Repository::SiteRepository repo;
-            vector<WebCrawler::Model::Site> sites = repo.getSites();   
-            for (size_t i = 0; i < sites.size(); i++)
-            {
-                std::cout << sites.at(i).getName() << endl;
-            }
-        }
+void SeederService::seed()
+{
+}
+
+void RunSeeder()
+{
+    SiteRepository repo;
+    vector<Site> sites = repo.getSites();
+    for (size_t i = 0; i < sites.size(); i++)
+    {
+        std::cout << sites.at(i).getName() << endl;
     }
 }

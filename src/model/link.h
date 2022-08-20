@@ -2,25 +2,19 @@
 #include <string> // for string class
 using namespace std;
 
-namespace WebCrawler
+class Link
 {
-    namespace Model
-    {
-        class Link
-        {
-        private:
-            /* data */
-        public:
-            Link(/* args */);
-            ~Link();
-        };
+private:
+    /* data */
+public:
+    Link(/* args */);
+    ~Link();
+};
 
-        Link::Link(/* args */)
-        {
-        }
+Link::Link(/* args */)
+{
+}
 
-        Link::~Link()
-        {
-        }
-    }
+Link::~Link()
+{
 }
