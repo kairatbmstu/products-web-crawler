@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 21 16:16:44 2022
+# Make data base, printed on Sun Aug 21 16:51:31 2022
 
 # Variables
 
@@ -95,7 +95,7 @@ CMAKE_BINARY_DIR = /home/kairat/workspace/products-web-crawler
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 114611
+VSCODE_PID = 132141
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -193,7 +193,7 @@ MANAGERPID = 2667
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 114611
+GIO_LAUNCHED_DESKTOP_FILE_PID = 132141
 # makefile (from 'Makefile', line 35)
 MAKESILENT = -s
 # environment
@@ -243,9 +243,9 @@ LC_IDENTIFICATION = kk_KZ.UTF-8
 
 # RCS: could not be stat'd.
 # SCCS: could not be stat'd.
-# . (device 2050, inode 5904684): 15 files, no impossibilities.
+# . (device 2050, inode 5904684): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 3 directories.
+# 16 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -291,13 +291,13 @@ src/main.s: src/main.cpp.s
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
- 
 
 default_target: all
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 
 edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
@@ -308,7 +308,7 @@ edit_cache/fast: edit_cache
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-21 16:12:38.929093677
+#  Last modified 2022-08-21 16:23:33.648732433
 #  File has been updated.
 #  Successfully updated.
 
@@ -509,12 +509,12 @@ src/main.cpp.s:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 53 / storage = 563 B / avg = 10 B
-# current buf: size = 8162 B / used = 563 B / count = 53 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 54 / storage = 569 B / avg = 10 B
+# current buf: size = 8162 B / used = 569 B / count = 54 / avg = 10 B
 
-# strcache performance: lookups = 167 / hit rate = 68%
+# strcache performance: lookups = 168 / hit rate = 67%
 # hash-table stats:
-# Load=53/8192=1%, Rehash=0, Collisions=0/167=0%
-# Finished Make data base on Sun Aug 21 16:16:44 2022
+# Load=54/8192=1%, Rehash=0, Collisions=0/168=0%
+# Finished Make data base on Sun Aug 21 16:51:31 2022
 
  
