@@ -14,3 +14,13 @@ SiteRepository::SiteRepository()
 SiteRepository::~SiteRepository()
 {
 }
+
+void SiteRepository::addSite(Site site)
+{
+    return this->sites.push_back(site);
+}
+
+vector<Site> SiteRepository::getSites()
+{
+    return this->sites;
+}

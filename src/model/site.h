@@ -1,5 +1,8 @@
+#ifndef SITE_H
+#define SITE_H
+
 #include <iostream>
-#include <string> // for string class
+#include <string> 
 using namespace std;
 
 class Site
@@ -17,3 +20,5 @@ public:
     void setName(string id);
     string getName();
 };
+
+#endif

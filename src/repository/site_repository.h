@@ -1,3 +1,7 @@
+#ifndef SITE_REPOSITORY_H
+#define SITE_REPOSITORY_H
+
+
 #include <iostream>
 #include <string>
 #include "../model/site.h"
@@ -17,3 +21,6 @@ public:
     void addSite(Site site);
     vector<Site> getSites();
 };
+
+
+#endif

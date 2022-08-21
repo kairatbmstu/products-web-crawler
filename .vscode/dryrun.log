@@ -1,5 +1,10 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/kairat/workspace/products-web-crawler'
+mkdir -p output
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/main.cpp  -o src/main.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/repository_image.cpp  -o src/repository/repository_image.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/repository_link.cpp  -o src/repository/repository_link.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/repository_webpage.cpp  -o src/repository/repository_webpage.o
 g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/site_repository.cpp  -o src/repository/site_repository.o
 g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/config/rabbitmq_config.cpp  -o src/config/rabbitmq_config.o
 g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/link_filter_service.cpp  -o src/service/link_filter_service.o
