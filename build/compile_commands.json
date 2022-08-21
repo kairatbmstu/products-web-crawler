@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kairat/workspace/products-web-crawler/build",
+  "command": "/usr/bin/g++   -std=c++11 -g -o CMakeFiles/main.dir/src/main.cpp.o -c /home/kairat/workspace/products-web-crawler/src/main.cpp",
+  "file": "/home/kairat/workspace/products-web-crawler/src/main.cpp"
+}
+]

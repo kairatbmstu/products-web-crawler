@@ -1,5 +1,5 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'src/repository/site_repository.o', needed by 'main'.  Stop.
+make: *** No rule to make target 'src/main.o', needed by 'main'.  Stop.
 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
@@ -8,7 +8,7 @@ make: *** No rule to make target 'src/repository/site_repository.o', needed by '
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 20 15:27:57 2022
+# Make data base, printed on Sun Aug 21 15:37:44 2022
 
 # Variables
 
@@ -103,7 +103,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 34342
+VSCODE_PID = 114611
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -215,7 +215,7 @@ MANAGERPID = 2667
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 34342
+GIO_LAUNCHED_DESKTOP_FILE_PID = 114611
 # makefile (from 'Makefile', line 39)
 SOURCEDIRS := src src/repository src/config src/service src/model src/database
 # environment
@@ -272,14 +272,14 @@ LC_IDENTIFICATION = kk_KZ.UTF-8
 # Directories
 
 # src/config (device 2050, inode 8134155): 3 files, no impossibilities.
-# src (device 2050, inode 8003451): 10 files, no impossibilities.
+# src (device 2050, inode 8003451): 9 files, no impossibilities.
 # src/service (device 2050, inode 8134157): 10 files, no impossibilities.
 # src/model (device 2050, inode 8266834): 14 files, no impossibilities.
 # src/database (device 2050, inode 9186669): 4 files, no impossibilities.
-# . (device 2050, inode 5904684): 15 files, no impossibilities.
-# src/repository (device 2050, inode 8134150): 11 files, no impossibilities.
+# . (device 2050, inode 5904684): 14 files, no impossibilities.
+# src/repository (device 2050, inode 8134150): 8 files, no impossibilities.
 
-# 67 files, no impossibilities in 7 directories.
+# 62 files, no impossibilities in 7 directories.
 
 # Implicit Rules
 
@@ -294,6 +294,7 @@ src/service/product_fetch_service.o:
 #  File has not been updated.
 
 # Not a target:
+ 
 src/service/page_download_service.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -303,7 +304,6 @@ src/service/page_download_service.o:
 src/service/seeder_service.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -351,8 +351,8 @@ src/model/app_user.o:
 
 # Not a target:
 src/repository/site_repository.o:
-#  Implicit rule search has been done.
-#  File does not exist.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
@@ -398,17 +398,15 @@ src/model/image.o:
 
 # Not a target:
 src/repository/repository_webpage.o:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-20 15:27:38.231258947
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/main.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-20 15:27:37.439253996
-#  File has been updated.
-#  Successfully updated.
+#  File does not exist.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -418,7 +416,7 @@ src/main.o:
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2022-08-10 22:00:19.87969386
+#  Last modified 2022-08-21 12:33:43.937868274
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
@@ -448,17 +446,16 @@ src/service/link_filter_service.o:
 
 main: src/main.o src/repository/repository_image.o src/repository/repository_link.o src/repository/repository_webpage.o src/repository/site_repository.o src/config/rabbitmq_config.o src/service/link_filter_service.o src/service/link_service.o src/service/page_download_service.o src/service/page_service.o src/service/product_fetch_service.o src/service/product_service.o src/service/seeder_service.o src/model/app_user.o src/model/image.o src/model/link.o src/model/product.o src/model/site.o src/model/webpage.o src/database/database.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-08-20 12:54:37.48417173
+#  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 74):
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
 
 # Not a target:
 src/repository/repository_link.o:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-20 15:27:37.983257397
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 .PHONY: clean
 #  Implicit rule search has not been done.
@@ -467,10 +464,9 @@ src/repository/repository_link.o:
 
 # Not a target:
 src/repository/repository_image.o:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-20 15:27:37.735255846
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/database/database.o:
@@ -486,12 +482,12 @@ src/database/database.o:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 89 / storage = 1356 B / avg = 15 B
-# current buf: size = 8162 B / used = 1356 B / count = 89 / avg = 15 B
+# strcache buffers: 1 (0) / strings = 85 / storage = 1291 B / avg = 15 B
+# current buf: size = 8162 B / used = 1291 B / count = 85 / avg = 15 B
 
-# strcache performance: lookups = 120 / hit rate = 25%
+# strcache performance: lookups = 115 / hit rate = 26%
 # hash-table stats:
-# Load=89/8192=1%, Rehash=0, Collisions=0/120=0%
-# Finished Make data base on Sat Aug 20 15:27:57 2022
+# Load=85/8192=1%, Rehash=0, Collisions=0/115=0%
+# Finished Make data base on Sun Aug 21 15:37:44 2022
 
  
