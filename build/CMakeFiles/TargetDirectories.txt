@@ -1,3 +1,0 @@
-/home/kairat/workspace/products-web-crawler/build/CMakeFiles/main.dir
-/home/kairat/workspace/products-web-crawler/build/CMakeFiles/edit_cache.dir
-/home/kairat/workspace/products-web-crawler/build/CMakeFiles/rebuild_cache.dir
