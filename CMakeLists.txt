@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.24.0)
 project(tutocpp14)
 
 # set(Poco_DIR "/usr/local/lib/cmake/Poco/") 
