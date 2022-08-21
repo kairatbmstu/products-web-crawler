@@ -300,6 +300,4 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/kairat/workspace/products-web-crawler/src/service/service.h \
- /home/kairat/workspace/products-web-crawler/src/service/../repository/site_repository.h \
- /home/kairat/workspace/products-web-crawler/src/service/../repository/../model/site.h
+ /home/kairat/workspace/products-web-crawler/src/service/seeder_service.h

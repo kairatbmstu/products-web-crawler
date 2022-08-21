@@ -16,6 +16,6 @@ public:
     void seed();
 };
 
-void RunSeeder();
+
 
 #endif

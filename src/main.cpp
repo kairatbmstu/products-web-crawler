@@ -1,14 +1,14 @@
 #include <iostream>
 #include "httplib.h"
 #include <thread>
-#include "service/service.h"
+#include "service/seeder_service.h"
 
 int main(int argc, char **argv)
 {
     // HTTP
     httplib::Server svr;
-
-    thread t(RunSeeder);
+    
+    std::thread t(RunSeeder);
 
     svr.Get("/hi", [](const httplib::Request &, httplib::Response &res)
             { res.set_content("Hello World!", "text/plain"); });
