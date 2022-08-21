@@ -1,27 +1,24 @@
+#ifndef SITE_H
+#define SITE_H
+
 #include <iostream>
-#include <string> // for string class
+#include <string> 
 using namespace std;
 
-namespace WebCrawler
+class Site
 {
-    namespace Model
-    {
+private:
+    int id;
+    string name;
+    string url;
 
-        class Site
-        {
-        private:
-            int id;
-            string name;
-            string url;
-        public:
-            Site();
-            ~Site();
-            void setId(int id);
-            int getId();
-            void setName(string id);
-            string getName();
-        };
+public:
+    Site();
+    ~Site();
+    void setId(int id);
+    int getId();
+    void setName(string id);
+    string getName();
+};
 
-       
-    }
-}
+#endif

@@ -2,25 +2,16 @@
 #include <string> // for string class
 using namespace std;
 
-namespace WebCrawler
+class WebPage
 {
-    namespace Model
-    {
+private:
+    /* data */
+    int id;
+    string name;
+    string url;
 
-        class WebPage
-        {
-        private:
-            /* data */
-            int id;
-            string name;
-            string url;
-
-        public:
-            WebPage(/* args */);
-            ~WebPage();
-            int getId();
-        };
-
-    }
-
-}
+public:
+    WebPage(/* args */);
+    ~WebPage();
+    int getId();
+};

@@ -3,36 +3,30 @@
 #include "site.h"
 using namespace std;
 
-namespace WebCrawler
+Site::Site()
 {
-    namespace Model
-    {
-        Site::Site()
-        {
-        }
+}
 
-        Site::~Site()
-        {
-        }
+Site::~Site()
+{
+}
 
-        void Site::setId(int id)
-        {
-            this->id = id;
-        }
+void Site::setId(int id)
+{
+    this->id = id;
+}
 
-        int Site::getId()
-        {
-            return this->id;
-        }
+int Site::getId()
+{
+    return this->id;
+}
 
-        void Site::setName(string name)
-        {
-            this->name = name;
-        }
+void Site::setName(string name)
+{
+    this->name = name;
+}
 
-        string Site::getName()
-        {
-            return this->name;
-        }
-    }
+string Site::getName()
+{
+    return this->name;
 }

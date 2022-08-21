@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 21:08:24 2022
+# Make data base, printed on Sun Aug 21 16:16:44 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ VSCODE_CODE_CACHE_PATH = /home/kairat/.config/Code/CachedData/b06ae3b2d2dbfe28bc
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.LEMRQ1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.VZ6OR1
 # default
 .LOADED := 
 # default
@@ -91,19 +91,19 @@ XDG_SESSION_DESKTOP = ubuntu
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
 # makefile (from 'Makefile', line 63)
-CMAKE_BINARY_DIR = /home/kairat/workspace/hellocpp
+CMAKE_BINARY_DIR = /home/kairat/workspace/products-web-crawler
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 34862
+VSCODE_PID = 114611
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from 'Makefile', line 60)
-CMAKE_SOURCE_DIR = /home/kairat/workspace/hellocpp
+CMAKE_SOURCE_DIR = /home/kairat/workspace/products-web-crawler
 # environment
-SESSION_MANAGER = local/kairat-VivoBook-ASUSLaptop-X512UA:@/tmp/.ICE-unix/2469,unix/kairat-VivoBook-ASUSLaptop-X512UA:/tmp/.ICE-unix/2469
+SESSION_MANAGER = local/kairat-VivoBook-ASUSLaptop-X512UA:@/tmp/.ICE-unix/2799,unix/kairat-VivoBook-ASUSLaptop-X512UA:/tmp/.ICE-unix/2799
 # automatic
 *F = $(notdir $*)
 # environment
@@ -145,7 +145,7 @@ LC_MONETARY = kk_KZ.UTF-8
 # environment
 LC_TIME = kk_KZ.UTF-8
 # environment
-INVOCATION_ID = 7e32d5d2eb8a418488ee52db312ef9af
+INVOCATION_ID = 75fe4a2cfbd0412e9b5303508af71334
 # environment
 USERNAME = kairat
 # environment
@@ -177,7 +177,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := default_target
 # environment
-SYSTEMD_EXEC_PID = 2487
+SYSTEMD_EXEC_PID = 2817
 # makefile (from 'Makefile', line 54)
 RM = /usr/bin/cmake -E rm -f
 # environment
@@ -189,11 +189,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2337
+MANAGERPID = 2667
 # environment
 LC_MEASUREMENT = kk_KZ.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 34862
+GIO_LAUNCHED_DESKTOP_FILE_PID = 114611
 # makefile (from 'Makefile', line 35)
 MAKESILENT = -s
 # environment
@@ -203,7 +203,7 @@ LC_PAPER = kk_KZ.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:38120
+JOURNAL_STREAM = 8:37359
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -291,6 +291,7 @@ src/main.s: src/main.cpp.s
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 
 default_target: all
 #  Phony target (prerequisite of .PHONY).
@@ -302,13 +303,12 @@ edit_cache/fast: edit_cache
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
- 
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-10 22:29:40.739104174
+#  Last modified 2022-08-21 16:12:38.929093677
 #  File has been updated.
 #  Successfully updated.
 
@@ -399,9 +399,9 @@ all: cmake_check_build_system
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/6=0%
 #  recipe to execute (from 'Makefile', line 90):
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kairat/workspace/hellocpp/CMakeFiles /home/kairat/workspace/hellocpp//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kairat/workspace/products-web-crawler/CMakeFiles /home/kairat/workspace/products-web-crawler//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kairat/workspace/hellocpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kairat/workspace/products-web-crawler/CMakeFiles 0
 
 help:
 #  Phony target (prerequisite of .PHONY).
@@ -515,6 +515,6 @@ src/main.cpp.s:
 # strcache performance: lookups = 167 / hit rate = 68%
 # hash-table stats:
 # Load=53/8192=1%, Rehash=0, Collisions=0/167=0%
-# Finished Make data base on Mon Aug 15 21:08:24 2022
+# Finished Make data base on Sun Aug 21 16:16:44 2022
 
  

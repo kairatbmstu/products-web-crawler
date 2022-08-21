@@ -1,28 +1,26 @@
+#ifndef SITE_REPOSITORY_H
+#define SITE_REPOSITORY_H
+
+
 #include <iostream>
-#include <string> 
+#include <string>
 #include "../model/site.h"
 #include <vector>
 
 using namespace std;
 
-namespace WebCrawler
+class SiteRepository
 {
-    namespace Repository
-    {
+private:
+    vector<Site> sites;
 
-        SiteRepository siteRepository;
+public:
+    SiteRepository();
+    ~SiteRepository();
 
-        class SiteRepository
-        {
-        private:
-            vector<WebCrawler::Model::Site> sites;
+    void addSite(Site site);
+    vector<Site> getSites();
+};
 
-        public:
-            SiteRepository();
-            ~SiteRepository();
 
-            void addSite(WebCrawler::Model::Site site);
-            vector<WebCrawler::Model::Site> getSites(WebCrawler::Model::Site site);
-        };
-    }
-}
+#endif

@@ -1,8 +1,6 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.24.0)
 project(tutocpp14)
 
-set(Poco_DIR "/usr/local/lib/cmake/Poco/") 
-set(Poco_INCLUDE_DIRS "/usr/locale/include/Poco/")
 
 find_package(Poco REQUIRED COMPONENTS Foundation Net XML Util) # add other components here
 
@@ -18,7 +16,6 @@ else()
     message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
 endif()
 
-include_directories( ${Poco_INCLUDE_DIRS}) 
 
-add_executable(main src/**)
-target_link_libraries(main ${Poco_LIBRARIES}) 
+add_executable(main src/main.cpp)
+target_link_libraries(main) 
