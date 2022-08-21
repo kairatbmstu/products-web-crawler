@@ -1,27 +1,22 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: Entering directory '/home/kairat/workspace/products-web-crawler'
-mkdir -p output
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/main.cpp  -o src/main.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/repository_image.cpp  -o src/repository/repository_image.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/repository_link.cpp  -o src/repository/repository_link.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/repository_webpage.cpp  -o src/repository/repository_webpage.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/repository/site_repository.cpp  -o src/repository/site_repository.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/config/rabbitmq_config.cpp  -o src/config/rabbitmq_config.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/link_filter_service.cpp  -o src/service/link_filter_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/link_service.cpp  -o src/service/link_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/page_download_service.cpp  -o src/service/page_download_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/page_service.cpp  -o src/service/page_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/product_fetch_service.cpp  -o src/service/product_fetch_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/product_service.cpp  -o src/service/product_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/service/seeder_service.cpp  -o src/service/seeder_service.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/model/app_user.cpp  -o src/model/app_user.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/model/image.cpp  -o src/model/image.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/model/link.cpp  -o src/model/link.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/model/product.cpp  -o src/model/product.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/model/site.cpp  -o src/model/site.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/model/webpage.cpp  -o src/model/webpage.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/database/database.cpp  -o src/database/database.o
-g++ -std=c++17 -Wall -Wextra -g -Iinclude -o output/main src/main.o src/repository/repository_image.o src/repository/repository_link.o src/repository/repository_webpage.o src/repository/site_repository.o src/config/rabbitmq_config.o src/service/link_filter_service.o src/service/link_service.o src/service/page_download_service.o src/service/page_service.o src/service/product_fetch_service.o src/service/product_service.o src/service/seeder_service.o src/model/app_user.o src/model/image.o src/model/link.o src/model/product.o src/model/site.o src/model/webpage.o src/database/database.o  -Llib
-echo Executing 'all' complete!
+/usr/bin/cmake -S/home/kairat/workspace/products-web-crawler -B/home/kairat/workspace/products-web-crawler --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/kairat/workspace/products-web-crawler/CMakeFiles /home/kairat/workspace/products-web-crawler//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/kairat/workspace/products-web-crawler'
+make -s -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+make[2]: Entering directory '/home/kairat/workspace/products-web-crawler'
+cd /home/kairat/workspace/products-web-crawler && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/kairat/workspace/products-web-crawler /home/kairat/workspace/products-web-crawler /home/kairat/workspace/products-web-crawler /home/kairat/workspace/products-web-crawler /home/kairat/workspace/products-web-crawler/CMakeFiles/main.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/kairat/workspace/products-web-crawler'
+make -s -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+make[2]: Entering directory '/home/kairat/workspace/products-web-crawler'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/kairat/workspace/products-web-crawler/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+/usr/bin/c++   -std=c++11 -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/kairat/workspace/products-web-crawler/src/main.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/kairat/workspace/products-web-crawler/CMakeFiles --progress-num=2 "Linking CXX executable main"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/kairat/workspace/products-web-crawler'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/kairat/workspace/products-web-crawler/CMakeFiles --progress-num=1,2 "Built target main"
+make[1]: Leaving directory '/home/kairat/workspace/products-web-crawler'
+/usr/bin/cmake -E cmake_progress_start /home/kairat/workspace/products-web-crawler/CMakeFiles 0
 make: Leaving directory '/home/kairat/workspace/products-web-crawler'
  
